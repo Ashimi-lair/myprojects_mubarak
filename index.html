@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Booklist Application</title>
+</head>
+<body>
+  <div class="container">
+    <div class="container-primary container-primary--darkblue">
+      <img src="booklist_logo.svg" class="logo" />
+    </div>
+    <div class="container-secondary container-secondary--lightblue">
+      <div class="container-secondary container-secondary--flex">
+        <div class="container-secondary container-secondary--flex-item">
+          Add your 
+          <h1 class="msg">favourite<br /> book!</h1>
+        </div>
+        <div class="container-secondary container-secondary--flex-item">
+          <input type="text" class="input-field" placeholder="Book title" />
+          <input type="text" class="input-field" placeholder="Book author" />
+          <button class="btn">Add to booklist</button>
+        </div>        
+      </div>
+      <hr class="section-divide">
+        <table class="booklist">
+          <tr class="booklist__row">
+            <th class="booklist__row__head">Book Title</th>
+            <th class="booklist__row__head">Book Author</th>
+            <th class="booklist__row__head"></th>
+          </tr>
+        </table>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
